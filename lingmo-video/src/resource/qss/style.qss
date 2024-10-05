@@ -1,0 +1,25 @@
+// QWidget{background-color: rgb(1, 1, 1);}
+QSlider#TimeSlider::add-page:Horizontal
+{
+    background-color: rgb(87, 97, 106);
+    height:4px;
+}
+QSlider#TimeSlider::sub-page:Horizontal
+{
+    border:none;
+    border-radius:2px;
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(41,134,255,255), stop:1 rgba(62,255,254,255));
+    height:4px;
+}
+QSlider#TimeSlider::groove:Horizontal
+{
+    background:transparent;
+    height:4px;
+}
+QSlider#TimeSlider::handle:Horizontal
+{
+    height: 30px;
+    width:8px;
+    border-image: url(:/images/ic_music_thumb.png);
+    margin: -8 0px;
+}

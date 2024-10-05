@@ -1,0 +1,284 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Thu, 29 Aug 2024 09:35:47 +0000
+Subject: Translated using Weblate (Uyghur)
+
+Currently translated at 97.6% (84 of 86 strings)
+
+Translation: lingmo-nile-new/liblingmo-search
+Translate-URL: http://weblate.lingmo.top/projects/lingmo-nile-new/liblingmo-search/ug/
+---
+ .../liblingmo-search/liblingmo-search_kk_KZ.ts         | 32 +++++++++++-----------
+ translations/liblingmo-search/liblingmo-search_ky.ts   | 32 +++++++++++-----------
+ translations/liblingmo-search/liblingmo-search_ug.ts   |  8 +++---
+ 3 files changed, 36 insertions(+), 36 deletions(-)
+
+diff --git a/translations/liblingmo-search/liblingmo-search_kk_KZ.ts b/translations/liblingmo-search/liblingmo-search_kk_KZ.ts
+index def6d92..7d0f6d9 100644
+--- a/translations/liblingmo-search/liblingmo-search_kk_KZ.ts
++++ b/translations/liblingmo-search/liblingmo-search_kk_KZ.ts
+@@ -37,19 +37,19 @@
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="73"/>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="78"/>
+         <source>AI Search</source>
+-        <translation>AI іздеу</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="117"/>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="250"/>
+         <source>OK</source>
+-        <translation>Иә</translation>
++        <translation>ماقۇل</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="119"/>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="252"/>
+         <source>Can not get a default application for opening %1.</source>
+-        <translation>٪1 نى اشۋعا كوڭىلگىدەي قولدانۋعا قول جەتكٸزبەدٸ.</translation>
++        <translation>%1 نى اشۋعا كوڭىلگىدەي قولدانۋعا قول جەتكٸزبەدٸ.</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="166"/>
+@@ -164,7 +164,7 @@
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="334"/>
+         <source>Dir Search</source>
+-        <translation>Dir Search</translation>
++        <translation>دۇرا ٸزدەۋ</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="400"/>
+@@ -355,13 +355,13 @@
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="156"/>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="276"/>
+         <source>OK</source>
+-        <translation>Иә</translation>
++        <translation>ماقۇل</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="158"/>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="278"/>
+         <source>Can not get a default application for opening %1.</source>
+-        <translation>٪1 نى اشۋعا كوڭىلگىدەي قولدانۋعا قول جەتكٸزبەدٸ.</translation>
++        <translation>%1 نى اشۋعا كوڭىلگىدەي قولدانۋعا قول جەتكٸزبەدٸ.</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="186"/>
+@@ -488,52 +488,52 @@
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="44"/>
+         <source>file path</source>
+-        <translation>файл жолы</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="50"/>
+         <source>file name</source>
+-        <translation>файл атауы</translation>
++        <translation>حۇجات مى</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="56"/>
+         <source>file icon name</source>
+-        <translation>файл белгішесінің атауы</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="62"/>
+         <source>modified time</source>
+-        <translation>өзгертілген уақыт</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="68"/>
+         <source>application desktop file path</source>
+-        <translation>бағдарлама жұмыс үстелінің файл жолы</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="74"/>
+         <source>application local name</source>
+-        <translation>қолданбаның жергілікті атауы</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="80"/>
+         <source>application icon name</source>
+-        <translation>бағдарлама белгішесінің атауы</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="86"/>
+         <source>application description</source>
+-        <translation>қолданбаның сипаттамасы</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="92"/>
+         <source>is online application</source>
+-        <translation>онлайн қолданба</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="98"/>
+         <source>application package name</source>
+-        <translation>бағдарлама жиынтығының атауы</translation>
++        <translation></translation>
+     </message>
+ </context>
+ <context>
+diff --git a/translations/liblingmo-search/liblingmo-search_ky.ts b/translations/liblingmo-search/liblingmo-search_ky.ts
+index 52f6526..b2af1ce 100644
+--- a/translations/liblingmo-search/liblingmo-search_ky.ts
++++ b/translations/liblingmo-search/liblingmo-search_ky.ts
+@@ -37,19 +37,19 @@
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="73"/>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="78"/>
+         <source>AI Search</source>
+-        <translation>АИ издөө</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="117"/>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="250"/>
+         <source>OK</source>
+-        <translation>Ооба</translation>
++        <translation>بەكىتۉۉ</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="119"/>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="252"/>
+         <source>Can not get a default application for opening %1.</source>
+-        <translation>٪1 نى اچىشقا  كۅڭۉلدۅگۉدۅي قولدونۇۇعا ەە بولوالبادى.</translation>
++        <translation>%1 نى اچىشقا  كۅڭۉلدۅگۉدۅي قولدونۇۇعا ەە بولوالبادى.</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="166"/>
+@@ -164,7 +164,7 @@
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="334"/>
+         <source>Dir Search</source>
+-        <translation>Dir Search</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="400"/>
+@@ -355,13 +355,13 @@
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="156"/>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="276"/>
+         <source>OK</source>
+-        <translation>Ооба</translation>
++        <translation>بەكىتۉۉ</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="158"/>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="278"/>
+         <source>Can not get a default application for opening %1.</source>
+-        <translation>٪1 نى اچىشقا  كۅڭۉلدۅگۉدۅي قولدونۇۇعا ەە بولوالبادى.</translation>
++        <translation>%1 نى اچىشقا  كۅڭۉلدۅگۉدۅي قولدونۇۇعا ەە بولوالبادى.</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="186"/>
+@@ -488,52 +488,52 @@
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="44"/>
+         <source>file path</source>
+-        <translation>файл жолу</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="50"/>
+         <source>file name</source>
+-        <translation>файлдын аты</translation>
++        <translation>ۅجۅت ناامى</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="56"/>
+         <source>file icon name</source>
+-        <translation>файлдын сүрөтү</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="62"/>
+         <source>modified time</source>
+-        <translation>өзгөртүлгөн убакыт</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="68"/>
+         <source>application desktop file path</source>
+-        <translation>иштеменин иш столунун файл жолу</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="74"/>
+         <source>application local name</source>
+-        <translation>тиркеме жергиликтүү аты</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="80"/>
+         <source>application icon name</source>
+-        <translation>тиркеме белгисинин аты</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="86"/>
+         <source>application description</source>
+-        <translation>колдонмо сүрөттөлүшү</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="92"/>
+         <source>is online application</source>
+-        <translation>онлайн колдонмо болуп саналат</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/searchinterface/search-result-property-info.cpp" line="98"/>
+         <source>application package name</source>
+-        <translation>колдонмо топтомдун аты</translation>
++        <translation></translation>
+     </message>
+ </context>
+ <context>
+diff --git a/translations/liblingmo-search/liblingmo-search_ug.ts b/translations/liblingmo-search/liblingmo-search_ug.ts
+index b482efa..6f76633 100644
+--- a/translations/liblingmo-search/liblingmo-search_ug.ts
++++ b/translations/liblingmo-search/liblingmo-search_ug.ts
+@@ -43,7 +43,7 @@
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="117"/>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="250"/>
+         <source>OK</source>
+-        <translation>شۇنداق</translation>
++        <translation>ماقۇل</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/aisearch/ai-search-plugin.cpp" line="119"/>
+@@ -126,7 +126,7 @@
+     <message>
+         <location filename="../../libsearch/appsearch/app-search-plugin.cpp" line="199"/>
+         <source>Application Description:</source>
+-        <translation>应用描述：</translation>
++        <translation>ئىلتىماس چۈشەندۈرۈشى:</translation>
+     </message>
+ </context>
+ <context>
+@@ -164,7 +164,7 @@
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="334"/>
+         <source>Dir Search</source>
+-        <translation>Dir Search</translation>
++        <translation></translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="400"/>
+@@ -355,7 +355,7 @@
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="156"/>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="276"/>
+         <source>OK</source>
+-        <translation>شۇنداق</translation>
++        <translation>ماقۇل</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="158"/>

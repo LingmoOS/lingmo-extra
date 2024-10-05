@@ -1,0 +1,6 @@
+Name: lingmo-sdk-filesystem
+Description: lingmosdk system layer filesystem component
+Requires: lingmosdk-log lingmosdk-config libsystemd Qt5Core 
+Version: 2.0.0
+Libs: -L/usr/lib/lingmosdk/lingmosdk-system/ -L/usr/lib/lingmosdk/lingmosdk-base -lkyfilewatcher -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-system/
+Cflags: -I/usr/include/lingmosdk/lingmosdk-system/

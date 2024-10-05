@@ -1,0 +1,255 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Sun, 29 Sep 2024 08:42:15 +0000
+Subject: Translated using Weblate (Uyghur)
+
+Currently translated at 100.0% (85 of 85 strings)
+
+Translation: lingmo-nile-new/lingmo-menu
+Translate-URL: http://weblate.lingmo.top/projects/lingmo-nile-new/lingmo-menu/ug/
+---
+ translations/lingmo-menu_kk_KZ.ts | 18 +++++++++---------
+ translations/lingmo-menu_ky_KG.ts | 24 ++++++++++++------------
+ translations/lingmo-menu_ug.ts    | 16 ++++++++--------
+ 3 files changed, 29 insertions(+), 29 deletions(-)
+
+diff --git a/translations/lingmo-menu_kk_KZ.ts b/translations/lingmo-menu_kk_KZ.ts
+index e40ba10..d06af45 100644
+--- a/translations/lingmo-menu_kk_KZ.ts
++++ b/translations/lingmo-menu_kk_KZ.ts
+@@ -57,7 +57,7 @@
+     </message>
+     <message>
+         <source>Add to &quot;%1&quot;</source>
+-        <translation>«1٪» قوسىلدى</translation>
++        <translation>&quot;%1&quot; قوسىلدى</translation>
+     </message>
+     <message>
+         <source>Dissolve folder</source>
+@@ -65,7 +65,7 @@
+     </message>
+     <message>
+         <source>Fix to favorite</source>
+-        <translation>جيىپ ساقلىغىچە تۇراقتاندىرۋ</translation>
++        <translation>جيىپ ساقلىغۇچە تۇراقتاندىرۋ</translation>
+     </message>
+     <message>
+         <source>Remove from favorite</source>
+@@ -193,11 +193,11 @@
+     </message>
+     <message>
+         <source>System</source>
+-        <translation>سەستما</translation>
++        <translation>سەستيما</translation>
+     </message>
+     <message>
+         <source>Utility</source>
+-        <translation>قولدانعىش پٸروگٸرامما</translation>
++        <translation>قولدانعىش پروگرامما</translation>
+     </message>
+     <message>
+         <source>Video</source>
+@@ -256,11 +256,11 @@
+     </message>
+     <message>
+         <source>System</source>
+-        <translation>سەستما</translation>
++        <translation>سەستيما</translation>
+     </message>
+     <message>
+         <source>Utility</source>
+-        <translation>قولدانعىش پٸروگٸرامما</translation>
++        <translation>قولدانعىش پروگرامما</translation>
+     </message>
+     <message>
+         <source>Video</source>
+@@ -287,7 +287,7 @@
+     <name>LingmoMenu::AppFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>جاڭا حۇجات قىسقىش ٪1</translation>
++        <translation>جاڭا حۇجات قىسقىش 1%</translation>
+     </message>
+ </context>
+ <context>
+@@ -319,7 +319,7 @@
+     <name>LingmoMenu::FavoriteFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>جاڭا حۇجات قىسقىش ٪1</translation>
++        <translation>جاڭا حۇجات قىسقىش 1%</translation>
+     </message>
+ </context>
+ <context>
+@@ -369,7 +369,7 @@
+     </message>
+     <message>
+         <source>&lt;p&gt;Turn off the computer, but the applications will remain open. When you turn on the computer again, you can return to the state you were in before&lt;/p&gt;</source>
+-        <translation>&lt;p&gt;كومپيۋتەردى قۇلىپتاپ ەت، بىراق قولدانعىش قالىپىن باستان اقٸر ساقتاپ قالدى كومپيوتوردى اشقاندا ،ٴسىز ايىرىلعان قالىپقا قايتقالى بولادٸ&lt;/p&gt;</translation>
++        <translation>&lt;p&gt;كومپيۋتەردى قۇلىپتاپ ەت، بىراق قولدانعىش قالىپىن باستان اقٸر ساقتاپ قالدى كومپيۋتەردى اشقاندا ،ٴسىز ايىرىلعان قالىپقا قايتقالى بولادٸ&lt;/p&gt;</translation>
+     </message>
+     <message>
+         <source>&lt;p&gt;The computer remains on but consumes less power, and the applications will remain open. You can quickly wake up the computer and return to the state you left&lt;/p&gt;</source>
+diff --git a/translations/lingmo-menu_ky_KG.ts b/translations/lingmo-menu_ky_KG.ts
+index 2b8637b..589d97f 100644
+--- a/translations/lingmo-menu_ky_KG.ts
++++ b/translations/lingmo-menu_ky_KG.ts
+@@ -69,7 +69,7 @@
+     </message>
+     <message>
+         <source>Add to &quot;%1&quot;</source>
+-        <translation>&quot;%1&quot; قوشۇلدۇ</translation>
++        <translation>&quot;%1&quot;  قوشۇلدۇ</translation>
+     </message>
+     <message>
+         <source>Show lingmo-menu.</source>
+@@ -81,7 +81,7 @@
+     </message>
+     <message>
+         <source>Fix to favorite</source>
+-        <translation>جىيىپ ساقلىغىچە تۇرۇقتاندىرۇۇ</translation>
++        <translation>جىيىپ ساقلىغۇچە تۇرۇقتاندىرۇۇ</translation>
+     </message>
+     <message>
+         <source>Remove from favorite</source>
+@@ -190,15 +190,15 @@
+     </message>
+     <message>
+         <source>Settings</source>
+-        <translation>تەڭشۅۅ</translation>
++        <translation>قۇرۇۇ ، اچۇۇ ، باشتوو  جاسوو ،اتقارۇۇ</translation>
+     </message>
+     <message>
+         <source>System</source>
+-        <translation>سەستىما</translation>
++        <translation>ساامالىق</translation>
+     </message>
+     <message>
+         <source>Utility</source>
+-        <translation>قولدونۇشچان پراگرامما</translation>
++        <translation>قولدونۇشچان  پراگرامما</translation>
+     </message>
+     <message>
+         <source>Video</source>
+@@ -254,15 +254,15 @@
+     </message>
+     <message>
+         <source>Settings</source>
+-        <translation>تەڭشۅۅ</translation>
++        <translation>قۇرۇۇ ، اچۇۇ ، باشتوو  جاسوو ،اتقارۇۇ</translation>
+     </message>
+     <message>
+         <source>System</source>
+-        <translation>سەستىما</translation>
++        <translation>ساامالىق</translation>
+     </message>
+     <message>
+         <source>Utility</source>
+-        <translation>قولدونۇشچان پراگرامما</translation>
++        <translation>قولدونۇشچان  پراگرامما</translation>
+     </message>
+     <message>
+         <source>Video</source>
+@@ -289,7 +289,7 @@
+     <name>LingmoMenu::AppFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>%1 جاڭى ۅجۅت قىپچىعىچ</translation>
++        <translation>جاڭى ۅجۅت قىپچىعىچ  1%</translation>
+     </message>
+ </context>
+ <context>
+@@ -321,7 +321,7 @@
+     <name>LingmoMenu::FavoriteFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>%1 جاڭى ۅجۅت قىپچىعىچ</translation>
++        <translation>جاڭى ۅجۅت قىپچىعىچ  1%</translation>
+     </message>
+ </context>
+ <context>
+@@ -359,7 +359,7 @@
+     </message>
+     <message>
+         <source>Log Out</source>
+-        <translation>جانىش ، قايتىش</translation>
++        <translation>بەكەر  قىلىۋەتمەك</translation>
+     </message>
+     <message>
+         <source>Reboot</source>
+@@ -371,7 +371,7 @@
+     </message>
+     <message>
+         <source>&lt;p&gt;Turn off the computer, but the applications will remain open. When you turn on the computer again, you can return to the state you were in before&lt;/p&gt;</source>
+-        <translation>&lt;p&gt; كومپىيۇتەردى ەتىپ جىبەرىڭ، بىروق قولدونۇشچان ابالىن ۉزگۉلتۉكسۉز ساقتاپ  قالات كومپىيوتەردى اچقاندا ،سىز ايرىلعان ابالعا قايتقالى بولوت &lt;/p&gt;</translation>
++        <translation>&lt;p&gt; كومپىيۇتەردى ەتىپ جىبەرىڭ، بىروق قولدونۇشچان ابالىن ۉزگۉلتۉكسۉز ساقتاپ  قالات  كومپىيۇتەردى اچقاندا ،سىز ايرىلعان ابالعا قايتقالى بولوت &lt;/p&gt;</translation>
+     </message>
+     <message>
+         <source>&lt;p&gt;The computer remains on but consumes less power, and the applications will remain open. You can quickly wake up the computer and return to the state you left&lt;/p&gt;</source>
+diff --git a/translations/lingmo-menu_ug.ts b/translations/lingmo-menu_ug.ts
+index 01afea5..f6b179e 100644
+--- a/translations/lingmo-menu_ug.ts
++++ b/translations/lingmo-menu_ug.ts
+@@ -81,7 +81,7 @@
+     </message>
+     <message>
+         <source>Fix to favorite</source>
+-        <translation>يىغىپ ساقلىغىچە مۇقىملاشتۇرۇش</translation>
++        <translation>يىغىپ ساقلىغۇچە مۇقىملاشتۇرۇش</translation>
+     </message>
+     <message>
+         <source>Remove from favorite</source>
+@@ -194,11 +194,11 @@
+     </message>
+     <message>
+         <source>System</source>
+-        <translation>سىستىما</translation>
++        <translation>سىستېما</translation>
+     </message>
+     <message>
+         <source>Utility</source>
+-        <translation>قوللىنىشچان پروگرامما</translation>
++        <translation>قوللىنىشچان پىروگرامما</translation>
+     </message>
+     <message>
+         <source>Video</source>
+@@ -258,11 +258,11 @@
+     </message>
+     <message>
+         <source>System</source>
+-        <translation>سىستىما</translation>
++        <translation>سىستېما</translation>
+     </message>
+     <message>
+         <source>Utility</source>
+-        <translation>قوللىنىشچان پروگرامما</translation>
++        <translation>قوللىنىشچان پىروگرامما</translation>
+     </message>
+     <message>
+         <source>Video</source>
+@@ -289,7 +289,7 @@
+     <name>LingmoMenu::AppFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>يىڭى ھۆججەت قىسقۇچ 1%</translation>
++        <translation>يېڭى ھۆججەت قىسقۇچ 1%</translation>
+     </message>
+ </context>
+ <context>
+@@ -321,7 +321,7 @@
+     <name>LingmoMenu::FavoriteFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>يىڭى ھۆججەت قىسقۇچ 1%</translation>
++        <translation>يېڭى ھۆججەت قىسقۇچ 1%</translation>
+     </message>
+ </context>
+ <context>
+@@ -387,7 +387,7 @@
+     </message>
+     <message>
+         <source>&lt;p&gt;Turn off the computer, but the applications will remain open. When you turn on the computer again, you can return to the state you were in before&lt;/p&gt;</source>
+-        <translation>&lt;p&gt;كومپيۇتېرنى ئېتىۋېتىڭ، لېكىن قوللىنىشچان ھالەتنى ئىزچىل ساقلاپ قالىدۇ كومپىيوتىرنى ئاچقاندا ،سىز ئايرىلغان ھالەتكە قايتقىلى بولىدۇ&lt;/p&gt;</translation>
++        <translation>&lt;p&gt;كومپيۇتېرنى ئېتىۋېتىڭ، لېكىن قوللىنىشچان ھالەتنى ئىزچىل ساقلاپ قالىدۇ كومپيۇتېرنى ئاچقاندا ،سىز ئايرىلغان ھالەتكە قايتقىلى بولىدۇ&lt;/p&gt;</translation>
+     </message>
+ </context>
+ <context>

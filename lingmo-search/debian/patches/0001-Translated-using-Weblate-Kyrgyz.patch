@@ -1,0 +1,195 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Tue, 23 Jul 2024 09:26:06 +0000
+Subject: Translated using Weblate (Kyrgyz)
+
+Currently translated at 100.0% (17 of 17 strings)
+
+Translation: lingmo-nile-new/lingmo-search
+Translate-URL: http://weblate.lingmo.top/projects/lingmo-nile-new/lingmo-search/ky/
+---
+ translations/lingmo-search/kk.ts | 22 +++++++++++-----------
+ translations/lingmo-search/ky.ts | 22 +++++++++++-----------
+ 2 files changed, 22 insertions(+), 22 deletions(-)
+
+diff --git a/translations/lingmo-search/kk.ts b/translations/lingmo-search/kk.ts
+index 09036b6..4e1094b 100644
+--- a/translations/lingmo-search/kk.ts
++++ b/translations/lingmo-search/kk.ts
+@@ -6,7 +6,7 @@
+     <message>
+         <location filename="../../frontend/view/best-list-view.cpp" line="408"/>
+         <source>Best Matches</source>
+-        <translation type="unfinished">最佳匹配</translation>
++        <translation>ەڭ جاقسى سايكەستىرۋ</translation>
+     </message>
+ </context>
+ <context>
+@@ -61,17 +61,17 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="42"/>
+         <source>lingmo-search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ٸزدەۋ lingmo</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="71"/>
+         <source>Search</source>
+-        <translation type="unfinished">搜索</translation>
++        <translation>ٸزدەۋ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="78"/>
+         <source>close</source>
+-        <translation type="unfinished"></translation>
++        <translation>جابۋ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="96"/>
+@@ -90,12 +90,12 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="118"/>
+         <source>No</source>
+-        <translation type="unfinished">否(N)</translation>
++        <translation>كۇشىنەن قالتۇرۇش</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="120"/>
+         <source>Yes</source>
+-        <translation type="unfinished">是(Y)</translation>
++        <translation>تۇراقتاندىرۋ</translation>
+     </message>
+ </context>
+ <context>
+@@ -125,7 +125,7 @@
+     <message>
+         <location filename="../../frontend/mainwindow.cpp" line="74"/>
+         <source>lingmo-search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ٸزدەۋ lingmo</translation>
+     </message>
+     <message>
+         <source>Search Settings</source>
+@@ -206,7 +206,7 @@
+     <message>
+         <location filename="../../frontend/control/search-line-edit.cpp" line="53"/>
+         <source>Search</source>
+-        <translation type="unfinished">搜索</translation>
++        <translation>ٸزدەۋ</translation>
+     </message>
+ </context>
+ <context>
+@@ -360,12 +360,12 @@
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="111"/>
+         <source>Quit lingmo-search application</source>
+-        <translation type="unfinished"></translation>
++        <translation>ٸزدەۋ ئەپتىن شەگىنۋ lingmo</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="114"/>
+         <source>Show main window</source>
+-        <translation type="unfinished"></translation>
++        <translation>نەگٸزگٸ تەرەزەسى كورسەتۋ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="117"/>
+@@ -400,7 +400,7 @@
+     <message>
+         <location filename="../../frontend/search-app-widget-plugin/provider/data/search.qml" line="132"/>
+         <source>search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ٸزدەۋ</translation>
+     </message>
+ </context>
+ </TS>
+diff --git a/translations/lingmo-search/ky.ts b/translations/lingmo-search/ky.ts
+index 166709a..3a872f7 100644
+--- a/translations/lingmo-search/ky.ts
++++ b/translations/lingmo-search/ky.ts
+@@ -6,7 +6,7 @@
+     <message>
+         <location filename="../../frontend/view/best-list-view.cpp" line="408"/>
+         <source>Best Matches</source>
+-        <translation type="unfinished">最佳匹配</translation>
++        <translation>ەڭ جاقشى شايكەشتىرىپ</translation>
+     </message>
+ </context>
+ <context>
+@@ -61,17 +61,17 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="42"/>
+         <source>lingmo-search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ lingmo</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="71"/>
+         <source>Search</source>
+-        <translation type="unfinished">搜索</translation>
++        <translation>ىزدۅۅ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="78"/>
+         <source>close</source>
+-        <translation type="unfinished"></translation>
++        <translation>جابۇۇ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="96"/>
+@@ -90,12 +90,12 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="118"/>
+         <source>No</source>
+-        <translation type="unfinished">否(N)</translation>
++        <translation>ارعادان  قالتۇرۇش</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="120"/>
+         <source>Yes</source>
+-        <translation type="unfinished">是(Y)</translation>
++        <translation>بەكىتۉۉ</translation>
+     </message>
+ </context>
+ <context>
+@@ -125,7 +125,7 @@
+     <message>
+         <location filename="../../frontend/mainwindow.cpp" line="74"/>
+         <source>lingmo-search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ lingmo</translation>
+     </message>
+     <message>
+         <source>Search Settings</source>
+@@ -206,7 +206,7 @@
+     <message>
+         <location filename="../../frontend/control/search-line-edit.cpp" line="53"/>
+         <source>Search</source>
+-        <translation type="unfinished">搜索</translation>
++        <translation>ىزدۅۅ</translation>
+     </message>
+ </context>
+ <context>
+@@ -360,12 +360,12 @@
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="111"/>
+         <source>Quit lingmo-search application</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ ئەپتىن جانىش ، قايتىش  lingmo</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="114"/>
+         <source>Show main window</source>
+-        <translation type="unfinished"></translation>
++        <translation>نەگىزگى  كۅزۅنۅكتۉ كۅرسۅتۉۉ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="117"/>
+@@ -400,7 +400,7 @@
+     <message>
+         <location filename="../../frontend/search-app-widget-plugin/provider/data/search.qml" line="132"/>
+         <source>search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ</translation>
+     </message>
+ </context>
+ </TS>

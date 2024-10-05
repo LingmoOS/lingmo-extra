@@ -1,0 +1,10 @@
+bin/systime usr/bin/
+src/systemtime/com.lingmo.lingmosdk.TimeServer.conf etc/dbus-1/system.d/
+src/systemtime/lingmosdk-systime.service lib/systemd/system/
+src/systemtime/lingmosdk-systime-date.desktop etc/xdg/autostart/
+bin/sdk-date usr/bin/
+usr/lib/lingmosdk/lingmosdk-system/libkydate.so*
+src/systemtime/dateform.conf /etc/kydate/
+po/zh_CN.mo usr/share/locale/zh_CN/LC_MESSAGES/
+po/bo_CN.mo usr/share/locale/bo_CN/LC_MESSAGES/
+

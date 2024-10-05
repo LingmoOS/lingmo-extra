@@ -1,0 +1,52 @@
+Source: lingmo-video
+Section: video
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: debhelper-compat (= 12),
+               qtbase5-dev (>= 5.1),
+               qt5-qmake,
+               qtchooser,
+               qtscript5-dev,
+               qttools5-dev-tools,
+               qtbase5-dev-tools,
+               qtbase5-private-dev,
+               libqt5x11extras5-dev,
+               libx11-dev,
+               libcrystalhd-dev [amd64 i386],
+               zlib1g-dev,
+               libgsettings-qt-dev,
+               libmpv-dev,
+               libkf5windowsystem-dev,
+               libkf5wayland-dev,
+               libwayland-dev,
+               libzen-dev,
+               libmediainfo-dev,
+               libmpv-dev,
+               liblingmo-log4qt-dev,
+               libqtav-dev,
+               libqtav-private-dev,
+               lingmo-sdk-sysinfo-dev (>= 1.1),
+               libqtavwidgets1,
+               lingmo-sdk-qtwidgets-dev,
+               lingmo-sdk-waylandhelper-dev
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://github.com/LingmoOS/lingmo-video
+Vcs-Git: https://github.com/LingmoOS/lingmo-video.git
+Vcs-Browser: https://github.com/LingmoOS/lingmo-video
+
+Package: lingmo-video
+Architecture: any
+Depends: mesa-vdpau-drivers,
+         libcrystalhd3 [amd64 i386],
+	 libmpv1,
+	 libqtavwidgets1,
+	 ffmpegthumbnailer,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: libcrystalhd3 | firmware-crystalhd,
+Description: Front-end for MPV
+ Qt5 MPV front-end, with basic features like playing
+ videos and audios to more advanced features.
+ It supports both x86 and ARM platform, and supports most of the
+ audio and video formats.

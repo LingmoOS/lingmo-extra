@@ -1,0 +1,3 @@
+src/lingmo-sdk-system-javascript-websocket/lingmosdk-dbus-websocket usr/bin/
+src/lingmo-sdk-system-javascript-websocket/lingmosdk-dbus-websocket.desktop etc/xdg/autostart/
+src/lingmo-sdk-system-javascript-websocket/html/ usr/lib/lingmosdk-dbus-websocket/html/

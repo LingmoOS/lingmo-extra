@@ -1,0 +1,6 @@
+Name: lingmo-sdk-powermanagement
+Description: lingmosdk system layer powermanagement component
+Requires: lingmosdk-log
+Version: 2.0.0
+Libs: -L/usr/lib/lingmosdk/lingmosdk-system/ -L/usr/lib/lingmosdk/lingmosdk-base -lkypowermanagement -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-system/
+Cflags: -I/usr/include/lingmosdk/lingmosdk-system/

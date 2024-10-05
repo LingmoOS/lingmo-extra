@@ -1,0 +1,5 @@
+Name: lingmo-sdk-proc
+Description: lingmosdk system layer process component
+Version: 2.0.0
+Libs: -L/usr/lib/lingmosdk/lingmosdk-system/ -L/usr/lib/lingmosdk/lingmosdk-base -lkyrtinfo -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-system/
+Cflags: -I/usr/include/lingmosdk/lingmosdk-system/

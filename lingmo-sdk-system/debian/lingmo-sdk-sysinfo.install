@@ -1,0 +1,4 @@
+usr/lib/lingmosdk/lingmosdk-system/libkysysinfo.so*
+po/lingmosdk-sysinfo_mn.mo usr/share/locale/mn/LC_MESSAGES/
+po/lingmosdk-sysinfo_zh_CN.mo usr/share/locale/zh_CN/LC_MESSAGES/
+po/lingmosdk-sysinfo_bo_CN.mo usr/share/locale/bo_CN/LC_MESSAGES/

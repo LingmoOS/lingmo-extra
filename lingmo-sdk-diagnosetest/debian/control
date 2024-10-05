@@ -1,0 +1,69 @@
+Source: lingmo-sdk-diagnosetest
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: debhelper,
+                pkgconf,
+                cmake,
+                libc6-dev,
+                libcjson-dev,
+                libdbus-1-dev,
+                libssl-dev,
+                lingmo-sdk-log-dev
+Standards-Version: 4.4.1
+Section: libs
+Homepage: https://gitlab2.lingmo.com/lingmoos-src/lingmo-sdk-diagnosetest
+Vcs-Git: https://gitlab2.lingmo.com/lingmoos-src/lingmo-sdk-diagnosetest.git
+Vcs-Browser: https://gitlab2.lingmo.com/lingmoos-src/lingmo-sdk-diagnosetest
+
+Package: lingmo-sdk-diagnosetest
+Architecture: any
+Section: libdevel
+Depends: lingmo-sdk-datacollect(= ${binary:Version}),
+			lingmo-sdk-diagnosetest-doc,
+ 			${misc:Depends},
+			${shlibs:Depends}
+Description: lingmo SDK based on diagnose and test level
+ A set of interfaces and tools are provided to assist the software
+ development of the diagnose and test layer. It includes data collection 
+ module.
+
+
+Package: lingmo-sdk-diagnosetest-dev
+Architecture: any
+Section: libdevel
+Depends: lingmo-sdk-datacollect-dev (= ${binary:Version}),
+		 ${misc:Depends},
+         ${shlibs:Depends}
+Description: development for lingmo-sdk-diagnosetest
+ A set of interfaces and tools are provided to assist the software
+ development of the diagnose and test layer. It includes data collection 
+ module.
+ Contains development files for lingmo-sdk-diagnosetest.
+
+Package: lingmo-sdk-diagnosetest-doc
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends},
+			${shlibs:Depends}
+Description: a list of man page.
+ You can use the man manual to query lingmo-sdk diagnosetest 
+ layer component information to help users.
+ Enable users to quickly understand the corresponding api.
+
+Package: lingmo-sdk-datacollect
+Architecture: any
+Depends: ${misc:Depends},
+        ${shlibs:Depends}
+Description: lingmo-sdk-datacollect is a module in lingmo-sdk-diagnosetest that,
+ used to collect user operation data,for optimize applications function.
+
+Package: lingmo-sdk-datacollect-dev
+Section: libdevel
+Architecture: any
+Depends: lingmo-sdk-datacollect(= ${binary:Version}),
+         ${shlibs:Depends},
+		${misc:Depends}
+Description: development files for lingmo-sdk-diagnosetest
+ lingmo-sdk-datacollect is a module in lingmo-sdk-diagnosetest that,
+ used to collect user operation data,for optimize applications function.
+ Contains development files for lingmo-sdk-diagnosetest.

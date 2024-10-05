@@ -1,0 +1,6 @@
+Name: lingmo-sdk-systime
+Description: lingmosdk system layer date component
+Requires: lingmosdk-config glib-2.0
+Version: 2.0.0
+Libs: -L/usr/lib/lingmosdk/lingmosdk-system/ -L/usr/lib/lingmosdk/lingmosdk-base -lkydate -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-system/
+Cflags: -I/usr/include/lingmosdk/lingmosdk-system/

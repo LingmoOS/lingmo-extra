@@ -1,0 +1,40 @@
+Source: lingmo-photo-viewer
+Section: utils
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: debhelper (>=9),
+               libfreeimage-dev,
+               libfreeimageplus-dev,
+               libgif-dev,
+               libglib2.0-dev,
+               libgsettings-qt-dev,
+               libkf5windowsystem-dev,
+               lingmo-sdk-applications-dev,
+               lingmo-sdk-base-dev,
+               lingmo-sdk-ocr-dev,
+               libopencv-core-dev,
+               libopencv-imgcodecs-dev,
+               libopencv-imgproc-dev,
+               libpeony-dev,
+               libpng-dev,
+               libqt5svg5-dev,
+               libqt5x11extras5-dev,
+               libstb-dev,
+               pkgconf,
+               qt5-qmake,
+               qtbase5-dev,
+               qtbase5-dev-tools,
+               qtchooser,
+               qtdeclarative5-dev,
+               qtquickcontrols2-5-dev,
+               qtscript5-dev,
+               qttools5-dev-tools
+Standards-Version: 4.4.0
+Homepage: https://github.com/LingmoOS/lingmo-photo-viewer
+Vcs-Git: https://github.com/LingmoOS/lingmo-photo-viewer.git
+Vcs-Browser: https://github.com/LingmoOS/lingmo-photo-viewer
+
+Package: lingmo-photo-viewer
+Architecture: any
+Depends: apng2gif, apngasm, lingmo-sdk-ocr, ${misc:Depends}, ${shlibs:Depends}
+Description: Photo viewer, support to view, zoom and rotate images of various formats

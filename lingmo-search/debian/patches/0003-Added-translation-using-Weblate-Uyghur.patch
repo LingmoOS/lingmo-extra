@@ -1,0 +1,105 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Tue, 23 Jul 2024 17:28:17 +0800
+Subject: Added translation using Weblate (Uyghur)
+
+---
+ translations/lingmo-search/appwidget/search_ug.ts | 90 +++++++++++++++++++++++++
+ 1 file changed, 90 insertions(+)
+ create mode 100644 translations/lingmo-search/appwidget/search_ug.ts
+
+diff --git a/translations/lingmo-search/appwidget/search_ug.ts b/translations/lingmo-search/appwidget/search_ug.ts
+new file mode 100644
+index 0000000..a283313
+--- /dev/null
++++ b/translations/lingmo-search/appwidget/search_ug.ts
+@@ -0,0 +1,90 @@
++<?xml version="1.0" encoding="utf-8"?>
++<!DOCTYPE TS>
++<TS version="2.1" language="ug">
++<context>
++    <name>LingmoSearch::BestListWidget</name>
++    <message>
++        <source>Best Matches</source>
++        <translation type="unfinished"></translation>
++    </message>
++</context>
++<context>
++    <name>LingmoSearch::CreateIndexAskDialog</name>
++    <message>
++        <source>lingmo-search</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>Search</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>No</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>Yes</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>close</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>Creating index can help you get results more quickly. Would you like to create one?</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>Don&apos;t remind me again</source>
++        <translation type="unfinished"></translation>
++    </message>
++</context>
++<context>
++    <name>LingmoSearch::MainWindow</name>
++    <message>
++        <source>lingmo-search</source>
++        <translation type="unfinished"></translation>
++    </message>
++</context>
++<context>
++    <name>LingmoSearch::SearchLineEdit</name>
++    <message>
++        <source>Search</source>
++        <translation type="unfinished"></translation>
++    </message>
++</context>
++<context>
++    <name>LingmoSearch::LingmoSearchGui</name>
++    <message>
++        <source>Quit lingmo-search application</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>Show main window</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>unregister a plugin with &lt;pluginName&gt;</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>register a plugin with &lt;pluginName&gt;</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>move &lt;pluginName&gt; to the target pos</source>
++        <translation type="unfinished"></translation>
++    </message>
++    <message>
++        <source>move plugin to &lt;index&gt;</source>
++        <translation type="unfinished"></translation>
++    </message>
++</context>
++<context>
++    <name>search</name>
++    <message>
++        <source>search</source>
++        <translation type="unfinished"></translation>
++    </message>
++</context>
++</TS>

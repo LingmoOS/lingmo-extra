@@ -1,0 +1,166 @@
+Source: lingmo-sdk-base
+Section: utils
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: debhelper-compat (= 12),
+				libc6-dev,
+				cmake,
+				libsystemd-dev,
+				libdbus-1-dev,
+				libssl-dev,
+				libgtk-3-dev,
+				libglib2.0-dev
+Standards-Version: 4.4.1
+Homepage: http://gitlab2.lingmo.com/lingmosdk/lingmosdk-base
+
+Package: lingmo-sdk-base
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-timer (>=1.2.0),
+		 lingmo-sdk-log (>=1.2.0),
+		 lingmo-sdk-config (>=1.2.0),
+		 lingmo-sdk-utils (>=1.2.0),
+		 lingmo-sdk-diagnostics (>=1.2.0),
+		 lingmo-sdk-basecommon(>=1.2.0),
+		 lingmo-sdk-gsetting(>=1.2.0)
+Multi-Arch: same
+Description: 灵墨开发者套件 - 基础层套件，提供日志管理、消息通信、进程守护、线程管理、定时器、调试与埋点、配置文件、utils
+
+Package: lingmo-sdk-base-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-base(>=1.2.0),
+		 lingmo-sdk-timer-dev(>=1.2.0),
+		 lingmo-sdk-log-dev(>=1.2.0),
+		 lingmo-sdk-config-dev(>=1.2.0),
+		 lingmo-sdk-utils-dev(>=1.2.0),
+		 lingmo-sdk-diagnostics-dev(>=1.2.0),
+		 lingmo-sdk-gsetting-dev(>=1.2.0)
+Multi-Arch: foreign
+Description: 灵墨开发者套件 - 基础层套件 - 开发库，提供日志管理、消息通信、进程守护、线程管理、定时器、调试与埋点、配置文件、utils
+
+Package: lingmo-sdk-timer
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-basecommon(>=1.2.0),
+		 lingmo-sdk-utils(>=1.2.0),
+		 libc6
+Multi-Arch: same
+Description: 定制器模块库
+
+Package: lingmo-sdk-timer-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-utils-dev(>=1.2.0),
+		 lingmo-sdk-timer(>=1.2.0),
+		 lingmo-sdk-basecommon(>=1.2.0),
+		 libc6
+Multi-Arch: foreign
+Description: 定时器模块 - 开发库
+
+Package: lingmo-sdk-log
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-config(>=1.2.0),
+		 logrotate,
+		 lingmo-sdk-basecommon(>=1.2.0),
+		 lingmo-sdk-utils(>=1.2.0),
+		 dbus,
+		 libc6,
+		 libdbus-1-3,
+		 libsystemd0
+Multi-Arch: same
+Description: 日志库
+
+Package: lingmo-sdk-basecommon
+Architecture: any
+Section: utils
+Depends:
+Multi-Arch: same
+Description: lingmosdk-base层公用数据包
+
+Package: lingmo-sdk-log-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+		 lingmo-sdk-config-dev(>=1.2.0),
+		 lingmo-sdk-utils-dev(>=1.2.0),
+		 libsystemd-dev
+Multi-Arch: foreign
+Description: 日志库 - 开发库
+
+Package: lingmo-sdk-config
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-basecommon(>=1.2.0),
+		 lingmo-sdk-utils(>=1.2.0),
+		 libc6
+Multi-Arch: same
+Description: 配置文件库
+
+Package: lingmo-sdk-config-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-utils-dev(>=1.2.0),
+		 lingmo-sdk-config(>=1.2.0)
+Multi-Arch: foreign
+Description: 配置文件库 - 开发库
+
+Package: lingmo-sdk-utils
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-basecommon(>=1.2.0),
+		 libc6
+Multi-Arch: same
+Description: 开发者utils
+
+Package: lingmo-sdk-utils-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-utils(>=1.2.0)
+Multi-Arch: foreign
+Description:  开发者utils - 开发库
+
+Package: lingmo-sdk-diagnostics
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-basecommon(>=1.2.0),
+                 lingmo-sdk-utils(>=1.2.0),
+                 libc6,
+                 libdbus-1-3,
+                 libgcc-s1 | libgcc1,
+                 libssl1.1,
+                 libstdc++6
+Multi-Arch: same
+Description: 开发者diagnostics
+
+Package: lingmo-sdk-diagnostics-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-diagnostics(>=1.2.0)
+Multi-Arch: foreign
+Description: 开发者diagnostics - 开发库
+
+Package: lingmo-sdk-gsetting
+Architecture: any
+Section: utils
+Depends: libgtk-3-0,
+		 libglib2.0-0,
+		 lingmo-sdk-basecommon(>=1.2.0),
+		 libatk1.0-0,
+		 libc6,
+		 libcairo-gobject2,
+		 libcairo2,
+		 libgdk-pixbuf2.0-0,
+		 libharfbuzz0b,
+		 libpango-1.0-0,
+		 libpangocairo-1.0-0
+Multi-Arch: same
+Description: 开发者gsetting
+
+Package: lingmo-sdk-gsetting-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-gsetting(>=1.2.0)
+Multi-Arch: foreign
+Description: 开发者gsetting - 开发库

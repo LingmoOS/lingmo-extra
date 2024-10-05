@@ -1,0 +1,6 @@
+Name: lingmo-sdk-system
+Description: lingmosdk system layer
+Requires: lingmosdk-disk lingmosdk-filesystem lingmosdk-hardware lingmosdk-package lingmosdk-proc lingmosdk-sysinfo lingmosdk-location lingmosdk-net lingmosdk-realtime
+Version: 2.0.0
+Libs: -L/usr/lib/lingmosdk/lingmosdk-system/ -L/usr/lib/lingmosdk/lingmosdk-base -lkydiskinfo -lkyfilewatcher -lkyhw -lkypackage -lkysysinfo -lkyrtinfo -lkylocation -lkynetinfo -lkyrealtime -lkybluetooth -lkyedid -lkyfan -lkyhwinfo -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-system/
+Cflags: -I/usr/include/lingmosdk/lingmosdk-system/

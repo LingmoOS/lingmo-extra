@@ -1,0 +1,120 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Tue, 23 Jul 2024 11:12:20 +0000
+Subject: Translated using Weblate (Kyrgyz)
+
+Currently translated at 100.0% (17 of 17 strings)
+
+Translation: lingmo-nile-new/lingmo-search-appwidget
+Translate-URL: http://weblate.lingmo.top/projects/lingmo-nile-new/lingmo-search-appwidget/ky/
+---
+ translations/lingmo-search/appwidget/search_ky_KG.ts | 34 +++++++++++-----------
+ 1 file changed, 17 insertions(+), 17 deletions(-)
+
+diff --git a/translations/lingmo-search/appwidget/search_ky_KG.ts b/translations/lingmo-search/appwidget/search_ky_KG.ts
+index 88fba81..540cc33 100644
+--- a/translations/lingmo-search/appwidget/search_ky_KG.ts
++++ b/translations/lingmo-search/appwidget/search_ky_KG.ts
+@@ -5,86 +5,86 @@
+     <name>LingmoSearch::BestListWidget</name>
+     <message>
+         <source>Best Matches</source>
+-        <translation type="unfinished"></translation>
++        <translation>ەڭ جاقشى شايكەشتىرىپ</translation>
+     </message>
+ </context>
+ <context>
+     <name>LingmoSearch::CreateIndexAskDialog</name>
+     <message>
+         <source>lingmo-search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ lingmo</translation>
+     </message>
+     <message>
+         <source>Search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ</translation>
+     </message>
+     <message>
+         <source>close</source>
+-        <translation type="unfinished"></translation>
++        <translation>جابۇۇ</translation>
+     </message>
+     <message>
+         <source>Creating index can help you get results more quickly. Would you like to create one?</source>
+-        <translation type="unfinished"></translation>
++        <translation>بەلگىلەنگن نارق  پايدا قىلۇۇ جاسوو ،اتقارۇۇ  داعى ەلە تەز ناتىيجاعا ئېرىشىشىڭىزگە جەرلىك  بەرەت. بىردى پايدا قىلۇۇ جاسوو ،اتقارۇۇ  قىلاسىزبى؟</translation>
+     </message>
+     <message>
+         <source>Don&apos;t remind me again</source>
+-        <translation type="unfinished"></translation>
++        <translation>ماعا قايرا ەسكەرتبەڭ</translation>
+     </message>
+     <message>
+         <source>No</source>
+-        <translation type="unfinished"></translation>
++        <translation>ارعادان  قالتۇرۇش</translation>
+     </message>
+     <message>
+         <source>Yes</source>
+-        <translation type="unfinished"></translation>
++        <translation>بەكىتۉۉ</translation>
+     </message>
+ </context>
+ <context>
+     <name>LingmoSearch::MainWindow</name>
+     <message>
+         <source>lingmo-search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ lingmo</translation>
+     </message>
+ </context>
+ <context>
+     <name>LingmoSearch::SearchLineEdit</name>
+     <message>
+         <source>Search</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ</translation>
+     </message>
+ </context>
+ <context>
+     <name>LingmoSearch::LingmoSearchGui</name>
+     <message>
+         <source>Quit lingmo-search application</source>
+-        <translation type="unfinished"></translation>
++        <translation>ىزدۅۅ ئەپتىن جانىش ، قايتىش  lingmo</translation>
+     </message>
+     <message>
+         <source>Show main window</source>
+-        <translation type="unfinished"></translation>
++        <translation>نەگىزگى  كۅزۅنۅكتۉ كۅرسۅتۉۉ</translation>
+     </message>
+     <message>
+         <source>unregister a plugin with &lt;pluginName&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation>نى ىشتەتىش  &lt;pluginName&gt;  تىزىمدىكىتىن ۅچۉرۉۉ  قىستىرما تەتىگى</translation>
+     </message>
+     <message>
+         <source>register a plugin with &lt;pluginName&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation>نى ىشتەتىش  &lt;pluginName&gt; تىزىمدەتىش   قىستىرما تەتىگى</translation>
+     </message>
+     <message>
+         <source>move &lt;pluginName&gt; to the target pos</source>
+-        <translation type="unfinished"></translation>
++        <translation>نى نىشاندۇ ورۇنعا  جۅتكۅۅ &lt;pluginName&gt;</translation>
+     </message>
+     <message>
+         <source>move plugin to &lt;index&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation>عا  جۅتكۅۅ &lt;index&gt;  قىستىرما تەتىكتى</translation>
+     </message>
+ </context>
+ <context>
+     <name>search</name>
+     <message>
+         <source>search</source>
+-        <translation>издөө</translation>
++        <translation>ىزدۅۅ</translation>
+     </message>
+ </context>
+ </TS>

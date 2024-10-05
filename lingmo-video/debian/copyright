@@ -1,0 +1,433 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: lingmo-video
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     data/lingmo-video/en_US/image/1.png
+           data/lingmo-video/en_US/image/10.png
+           data/lingmo-video/en_US/image/11.png
+           data/lingmo-video/en_US/image/12.png
+           data/lingmo-video/en_US/image/2.png
+           data/lingmo-video/en_US/image/3.png
+           data/lingmo-video/en_US/image/4.png
+           data/lingmo-video/en_US/image/5.png
+           data/lingmo-video/en_US/image/6.png
+           data/lingmo-video/en_US/image/7.png
+           data/lingmo-video/en_US/image/8.png
+           data/lingmo-video/en_US/image/9.png
+           data/lingmo-video/en_US/index.md
+           data/lingmo-video/lingmo-video.png
+           data/lingmo-video/zh_CN/image/1.png
+           data/lingmo-video/zh_CN/image/10.png
+           data/lingmo-video/zh_CN/image/11.png
+           data/lingmo-video/zh_CN/image/12.png
+           data/lingmo-video/zh_CN/image/2.png
+           data/lingmo-video/zh_CN/image/3.png
+           data/lingmo-video/zh_CN/image/4.png
+           data/lingmo-video/zh_CN/image/5.png
+           data/lingmo-video/zh_CN/image/6.png
+           data/lingmo-video/zh_CN/image/7.png
+           data/lingmo-video/zh_CN/image/8.png
+           data/lingmo-video/zh_CN/image/9.png
+           data/lingmo-video/zh_CN/index.md
+           debian/control
+           debian/lingmo-video.manpages
+           debian/rules
+           debian/source/format
+           debian/watch
+           lingmo-video.desktop
+           lingmo-video.pro
+           src/aboutdialog.cpp
+           src/aboutdialog.h
+           src/checkbox/checkbox.cpp
+           src/checkbox/checkbox.h
+           src/contralbar.cpp
+           src/contralbar.h
+           src/core/mediahandle.cpp
+           src/core/mediahandle.h
+           src/core/mpvcore.cpp
+           src/core/mpvcore.h
+           src/core/mpvtypes.h
+           src/core/subtracks.cpp
+           src/core/subtracks.h
+           src/core/util.cpp
+           src/core/util.h
+           src/dbusadapter.cpp
+           src/dbusadapter.h
+           src/dialog.cpp
+           src/dialog.h
+           src/eventpasswidget.cpp
+           src/eventpasswidget.h
+           src/ffutil.cpp
+           src/ffutil.h
+           src/filletwidget.cpp
+           src/filletwidget.h
+           src/global/functions.cpp
+           src/global/functions.h
+           src/global/global.cpp
+           src/global/globalsetup.cpp
+           src/global/globalsetup.h
+           src/global/globalsignal.cpp
+           src/global/globalsignal.h
+           src/global/iniparser.cpp
+           src/global/iniparser.h
+           src/global/kvsqlite.cpp
+           src/global/kvsqlite.h
+           src/global/shortcutsetting.cpp
+           src/global/shortcutsetting.h
+           src/homepage.cpp
+           src/homepage.h
+           src/imagelabel.cpp
+           src/imagelabel.h
+           src/kaction.cpp
+           src/kaction.h
+           src/klabel.cpp
+           src/klabel.h
+           src/kmenu.cpp
+           src/kmenu.h
+           src/kwidget/kaction.cpp
+           src/kwidget/kaction.h
+           src/kwidget/klabel.cpp
+           src/kwidget/klabel.h
+           src/kwidget/klistwidget.cpp
+           src/kwidget/klistwidget.h
+           src/kwidget/kmenu.cpp
+           src/kwidget/kmenu.h
+           src/main.cpp
+           src/mainwidget.cpp
+           src/mainwidget.h
+           src/mediainfodialog.cpp
+           src/mediainfodialog.h
+           src/messagebox.cpp
+           src/messagebox.h
+           src/minimodebutton.cpp
+           src/minimodebutton.h
+           src/minimodeshade.cpp
+           src/minimodeshade.h
+           src/playglwidget.cpp
+           src/playglwidget.h
+           src/playlist.cpp
+           src/playlist.h
+           src/playlistwidget.cpp
+           src/playlistwidget.h
+           src/previewwidget.cpp
+           src/previewwidget.h
+           src/resource/ico/0.5X-d.png
+           src/resource/ico/0.5X-h.png
+           src/resource/ico/0.75X-d.png
+           src/resource/ico/0.75X-h.png
+           src/resource/ico/1.25X-d.png
+           src/resource/ico/1.25X-h.png
+           src/resource/ico/1.5X-d.png
+           src/resource/ico/1.5X-h.png
+           src/resource/ico/1X-d.png
+           src/resource/ico/1X-h.png
+           src/resource/ico/2X-d.png
+           src/resource/ico/2X-h.png
+           src/resource/ico/Illustration2@2x.png
+           src/resource/ico/application-exit-symbolic@2x.png
+           src/resource/ico/audio-volume-high-symbolic-d.png
+           src/resource/ico/audio-volume-high-symbolic-h.png
+           src/resource/ico/audio-volume-medium-symbolic-d.png
+           src/resource/ico/audio-volume-medium-symbolic-h.png
+           src/resource/ico/audio-volume-muted-symbolic-d.png
+           src/resource/ico/audio-volume-muted-symbolic-h.png
+           src/resource/ico/btnbgi.png
+           src/resource/ico/cha-d.png
+           src/resource/ico/cha-h.png
+           src/resource/ico/cha-w.png
+           src/resource/ico/cha-w1.png
+           src/resource/ico/close-mini-d.png
+           src/resource/ico/close-mini-h.png
+           src/resource/ico/icon-cbl1-d.png
+           src/resource/ico/icon-cbl1-h.png
+           src/resource/ico/icon-cbl2-d.png
+           src/resource/ico/icon-cbl2-h.png
+           src/resource/ico/icon-delect-d.png
+           src/resource/ico/icon-delect-h.png
+           src/resource/ico/icon-fullscreen-d.png
+           src/resource/ico/icon-fullscreen-h.png
+           src/resource/ico/icon-grid-symbolic-b.png
+           src/resource/ico/icon-grid-symbolic-h.png
+           src/resource/ico/icon-list-symbolic-b.png
+           src/resource/ico/icon-list-symbolic-h.png
+           src/resource/ico/icon-restore-d.png
+           src/resource/ico/icon-restore-h.png
+           src/resource/ico/icon-screenshot-symbolic-d.png
+           src/resource/ico/icon-screenshot-symbolic-d1.png
+           src/resource/ico/icon-screenshot-symbolic-h.png
+           src/resource/ico/icon-warning.png
+           src/resource/ico/lastsong-d.png
+           src/resource/ico/lastsong-h.png
+           src/resource/ico/lastsong_d_3x.png
+           src/resource/ico/lastsong_h_3x.png
+           src/resource/ico/list-add-symbolic-b.png
+           src/resource/ico/list-add-symbolic-h.png
+           src/resource/ico/list-background.png
+           src/resource/ico/list-home-new.png
+           src/resource/ico/list-home.png
+           src/resource/ico/logo1_3x.png
+           src/resource/ico/logo2_3x.png
+           src/resource/ico/logo3_3x.png
+           src/resource/ico/media-playlist-repeat-list-b.png
+           src/resource/ico/media-playlist-repeat-list-h.png
+           src/resource/ico/media-playlist-repeat-loop-b.png
+           src/resource/ico/media-playlist-repeat-loop-h.png
+           src/resource/ico/media-playlist-repeat-one-b.png
+           src/resource/ico/media-playlist-repeat-one-h.png
+           src/resource/ico/media-playlist-repeat-radom-b.png
+           src/resource/ico/media-playlist-repeat-radom-h.png
+           src/resource/ico/menubar/aaaa_a_3x.png
+           src/resource/ico/menubar/aaaa_b_3x.png
+           src/resource/ico/menubar/aaaa_c_3x.png
+           src/resource/ico/menubar/aaaa_d_3x.png
+           src/resource/ico/menubar/caidan_a_3x.png
+           src/resource/ico/menubar/caidan_b_3x.png
+           src/resource/ico/menubar/caidan_c_3x.png
+           src/resource/ico/menubar/caidan_d_3x.png
+           src/resource/ico/menubar/guanbi_a_3x.png
+           src/resource/ico/menubar/guanbi_b_3x.png
+           src/resource/ico/menubar/guanbi_c_3x.png
+           src/resource/ico/menubar/guanbi_d_3x.png
+           src/resource/ico/menubar/mini_a_3x.png
+           src/resource/ico/menubar/mini_b_3x.png
+           src/resource/ico/menubar/mini_c_3x.png
+           src/resource/ico/menubar/mini_d_3x.png
+           src/resource/ico/menubar/zuidah_a_3x.png
+           src/resource/ico/menubar/zuidah_b_3x.png
+           src/resource/ico/menubar/zuidah_c_3x.png
+           src/resource/ico/menubar/zuidah_d_3x.png
+           src/resource/ico/menubar/zuixh_a_3x.png
+           src/resource/ico/menubar/zuixh_b_3x.png
+           src/resource/ico/menubar/zuixh_c_3x.png
+           src/resource/ico/menubar/zuixh_d_3x.png
+           src/resource/ico/menubar/è¯´æ.png
+           src/resource/ico/mini_d_3x.png
+           src/resource/ico/music-background.png
+           src/resource/ico/nextsong-d.png
+           src/resource/ico/nextsong-h.png
+           src/resource/ico/nextsong_d_3x.png
+           src/resource/ico/nextsong_h_3x.png
+           src/resource/ico/no-preview.png
+           src/resource/ico/play-d.png
+           src/resource/ico/play-h.png
+           src/resource/ico/play-mini-d.png
+           src/resource/ico/play-mini-h.png
+           src/resource/ico/play1_h@2x.png
+           src/resource/ico/play1_h_3x.png
+           src/resource/ico/play_d_3x.png
+           src/resource/ico/play_h_3x.png
+           src/resource/ico/radio_notselected_d_3x.png
+           src/resource/ico/radio_notselected_h_3x.png
+           src/resource/ico/showmode-mini-d.png
+           src/resource/ico/showmode-mini-h.png
+           src/resource/ico/suspend-d.png
+           src/resource/ico/suspend-h.png
+           src/resource/ico/suspend-mini-d.png
+           src/resource/ico/suspend-mini-h.png
+           src/resource/ico/suspend1_d_3x.png
+           src/resource/ico/suspend_d_3x.png
+           src/resource/ico/suspend_h_3x.png
+           src/resource/ico_light/0.5X-d.png
+           src/resource/ico_light/0.5X-h.png
+           src/resource/ico_light/0.75X-d.png
+           src/resource/ico_light/0.75X-h.png
+           src/resource/ico_light/1.25X-d.png
+           src/resource/ico_light/1.25X-h.png
+           src/resource/ico_light/1.5X-d.png
+           src/resource/ico_light/1.5X-h.png
+           src/resource/ico_light/1X-d.png
+           src/resource/ico_light/1X-h.png
+           src/resource/ico_light/2X-d.png
+           src/resource/ico_light/2X-h.png
+           src/resource/ico_light/audio-volume-high-symbolic-d.png
+           src/resource/ico_light/audio-volume-high-symbolic-h.png
+           src/resource/ico_light/audio-volume-medium-symbolic-d.png
+           src/resource/ico_light/audio-volume-medium-symbolic-h.png
+           src/resource/ico_light/audio-volume-muted-symbolic-d.png
+           src/resource/ico_light/audio-volume-muted-symbolic-h.png
+           src/resource/ico_light/cha-h.png
+           src/resource/ico_light/cha-w.png
+           src/resource/ico_light/close-mini-d.png
+           src/resource/ico_light/close-mini-h.png
+           src/resource/ico_light/icon-cbl1-d.png
+           src/resource/ico_light/icon-cbl1-h.png
+           src/resource/ico_light/icon-cbl2-d.png
+           src/resource/ico_light/icon-cbl2-h.png
+           src/resource/ico_light/icon-delect-d.png
+           src/resource/ico_light/icon-delect-h.png
+           src/resource/ico_light/icon-fullscreen-d.png
+           src/resource/ico_light/icon-fullscreen-h.png
+           src/resource/ico_light/icon-grid-symbolic-b.png
+           src/resource/ico_light/icon-grid-symbolic-h.png
+           src/resource/ico_light/icon-list-symbolic-b.png
+           src/resource/ico_light/icon-list-symbolic-h.png
+           src/resource/ico_light/icon-restore-d.png
+           src/resource/ico_light/icon-restore-h.png
+           src/resource/ico_light/icon-screenshot-symbolic-d.png
+           src/resource/ico_light/icon-screenshot-symbolic-d1.png
+           src/resource/ico_light/icon-screenshot-symbolic-h.png
+           src/resource/ico_light/lastsong-d.png
+           src/resource/ico_light/lastsong-h.png
+           src/resource/ico_light/list-add-symbolic-b.png
+           src/resource/ico_light/list-add-symbolic-h.png
+           src/resource/ico_light/media-playlist-repeat-list-b.png
+           src/resource/ico_light/media-playlist-repeat-list-h.png
+           src/resource/ico_light/media-playlist-repeat-loop-b.png
+           src/resource/ico_light/media-playlist-repeat-loop-h.png
+           src/resource/ico_light/media-playlist-repeat-one-b.png
+           src/resource/ico_light/media-playlist-repeat-one-h.png
+           src/resource/ico_light/media-playlist-repeat-radom-b.png
+           src/resource/ico_light/media-playlist-repeat-radom-h.png
+           src/resource/ico_light/nextsong-d.png
+           src/resource/ico_light/nextsong-h.png
+           src/resource/ico_light/pause-d.png
+           src/resource/ico_light/play-d.png
+           src/resource/ico_light/play-h.png
+           src/resource/ico_light/play-mini-d.png
+           src/resource/ico_light/play-mini-h.png
+           src/resource/ico_light/showmode-mini-d.png
+           src/resource/ico_light/showmode-mini-h.png
+           src/resource/ico_light/suspend-d.png
+           src/resource/ico_light/suspend-h.png
+           src/resource/ico_light/suspend-mini-d.png
+           src/resource/ico_light/suspend-mini-h.png
+           src/resource/qss/main_style.qss
+           src/resource/qss/style.qss
+           src/setupdialog.cpp
+           src/setupdialog.h
+           src/setupwidget/setupcodec.cpp
+           src/setupwidget/setupcodec.h
+           src/setupwidget/setupplay.cpp
+           src/setupwidget/setupplay.h
+           src/setupwidget/setupscreenshot.cpp
+           src/setupwidget/setupscreenshot.h
+           src/setupwidget/setupshortcut.cpp
+           src/setupwidget/setupshortcut.h
+           src/setupwidget/setupsubtitle.cpp
+           src/setupwidget/setupsubtitle.h
+           src/setupwidget/setupsystem.cpp
+           src/setupwidget/setupsystem.h
+           src/setupwidget/setupvolume.cpp
+           src/setupwidget/setupvolume.h
+           src/sliderbar/progressbar.cpp
+           src/sliderbar/progressbar.h
+           src/sliderbar/slider.cpp
+           src/sliderbar/slider.h
+           src/sliderbar/sliderbar.cpp
+           src/sliderbar/sliderbar.h
+           src/src.pro
+           src/systemtrayicon.cpp
+           src/systemtrayicon.h
+           src/timeslider.cpp
+           src/timeslider.h
+           src/tipwidget/tipwidget.cpp
+           src/tipwidget/tipwidget.h
+           src/titlewidget.cpp
+           src/titlewidget.h
+           src/topwindow.cpp
+           src/topwindow.h
+           src/translations/generate_translations_pm.sh
+           src/lingmo-wayland/plasma-shell-manager.cpp
+           src/lingmo-wayland/plasma-shell-manager.h
+           src/lingmo-wayland/lingmo-decoration-manager.cpp
+           src/lingmo-wayland/lingmo-decoration-manager.h
+           src/lingmo-wayland/lingmo-raise.c
+           src/lingmo-wayland/waylanddialog.cpp
+           src/lingmo-wayland/waylanddialog.h
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     src/global/extensions.cpp
+           src/global/extensions.h
+           src/global/global.h
+           src/global/paths.cpp
+           src/global/paths.h
+           src/global/translator.cpp
+           src/global/translator.h
+Copyright: 2006-2015 Ricardo Villalba <rvm@users.sourceforge.net>
+           __NO_COPYRIGHT__ in: src/global/extensions.h
+License:   GPL-2.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/global/xatom-helper.cpp
+           src/global/xatom-helper.h
+Copyright: 2020 LingmoSoft Co., Ltd.
+License:   GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     src/lingmo-wayland/lingmo-decoration-client.h
+           src/lingmo-wayland/lingmo-decoration-core.c
+Copyright: 2015 The Qt Company Ltd. Contact: http://www.qt.io/licensing/
+License:   __UNKNOWN__
+ This file is part of the examples of the Qt Wayland module
+
+Files:     man/lingmo-video.1
+Copyright: __NO_COPYRIGHT__ in: man/lingmo-video.1
+License:   GPL-2.0+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU General Public License, Version 2 or any later
+ version published by the Free Software Foundation. On Debian systems, the
+ complete text of the GNU General Public License can be found in
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         src/previewwidget.ui
+#         src/mediainfodialog.ui
+#         src/contralbar.ui
+#         src/mainwidget.ui
+#         src/playlistwidget.ui
+#         src/setupdialog.ui
+#         src/aboutdialog.ui
+#         src/translations/lingmo-video_zh_CN.ts
+#         src/setupwidget/setupsubtitle.ui
+#         src/setupwidget/setupsystem.ui
+#         src/setupwidget/setupcodec.ui
+#         src/setupwidget/setupvolume.ui
+#         src/setupwidget/setupshortcut.ui
+#         src/setupwidget/setupplay.ui
+#         src/setupwidget/setupscreenshot.ui
+#         src/resource/resource.qrc
+#         src/resource/res.qrc
+#         src/lingmo-wayland/waylanddialog.ui
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         src/resource/ico/bg.png
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.

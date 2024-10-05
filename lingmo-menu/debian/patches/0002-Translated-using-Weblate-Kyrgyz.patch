@@ -1,0 +1,57 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Sun, 29 Sep 2024 08:58:03 +0000
+Subject: Translated using Weblate (Kyrgyz)
+
+Currently translated at 100.0% (85 of 85 strings)
+
+Translation: lingmo-nile-new/lingmo-menu
+Translate-URL: http://weblate.lingmo.top/projects/lingmo-nile-new/lingmo-menu/ky/
+---
+ translations/lingmo-menu_kk_KZ.ts | 4 ++--
+ translations/lingmo-menu_ky_KG.ts | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/translations/lingmo-menu_kk_KZ.ts b/translations/lingmo-menu_kk_KZ.ts
+index d06af45..58407b2 100644
+--- a/translations/lingmo-menu_kk_KZ.ts
++++ b/translations/lingmo-menu_kk_KZ.ts
+@@ -287,7 +287,7 @@
+     <name>LingmoMenu::AppFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>جاڭا حۇجات قىسقىش 1%</translation>
++        <translation>جاڭا حۇجات قىسقىش %1</translation>
+     </message>
+ </context>
+ <context>
+@@ -319,7 +319,7 @@
+     <name>LingmoMenu::FavoriteFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>جاڭا حۇجات قىسقىش 1%</translation>
++        <translation>جاڭا حۇجات قىسقىش %1</translation>
+     </message>
+ </context>
+ <context>
+diff --git a/translations/lingmo-menu_ky_KG.ts b/translations/lingmo-menu_ky_KG.ts
+index 589d97f..848e2fe 100644
+--- a/translations/lingmo-menu_ky_KG.ts
++++ b/translations/lingmo-menu_ky_KG.ts
+@@ -289,7 +289,7 @@
+     <name>LingmoMenu::AppFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>جاڭى ۅجۅت قىپچىعىچ  1%</translation>
++        <translation>جاڭى ۅجۅت قىپچىعىچ  %1</translation>
+     </message>
+ </context>
+ <context>
+@@ -321,7 +321,7 @@
+     <name>LingmoMenu::FavoriteFolderHelper</name>
+     <message>
+         <source>New Folder %1</source>
+-        <translation>جاڭى ۅجۅت قىپچىعىچ  1%</translation>
++        <translation>جاڭى ۅجۅت قىپچىعىچ  %1</translation>
+     </message>
+ </context>
+ <context>

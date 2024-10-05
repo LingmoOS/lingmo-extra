@@ -1,0 +1,5 @@
+Name: lingmo-sdk-utils
+Description: lingmosdk base layer utils component
+Version: 2.0.0
+Cflags:-I/usr/include/lingmosdk/lingmosdk-base/
+Libs: -L/usr/lib/lingmosdk/lingmosdk-base/ -lkydatastruct -lkyutils -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-base/

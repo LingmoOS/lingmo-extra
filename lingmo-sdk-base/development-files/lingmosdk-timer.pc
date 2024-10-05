@@ -1,0 +1,6 @@
+Name: lingmo-sdk-timer
+Description: lingmosdk base layer time component
+Requires: lingmosdk-utils
+Version: 2.0.0
+Cflags: -I/usr/include/lingmosdk/lingmosdk-base/
+Libs: -L/usr/lib/lingmosdk/lingmosdk-base/ -lkytimer -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-base/

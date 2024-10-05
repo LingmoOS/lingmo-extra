@@ -1,0 +1,53 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Sun, 29 Sep 2024 03:05:37 +0000
+Subject: Translated using Weblate (Uyghur)
+
+Currently translated at 98.8% (85 of 86 strings)
+
+Translation: lingmo-nile-new/liblingmo-search
+Translate-URL: http://weblate.lingmo.top/projects/lingmo-nile-new/liblingmo-search/ug/
+---
+ translations/liblingmo-search/liblingmo-search_kk_KZ.ts | 2 +-
+ translations/liblingmo-search/liblingmo-search_ky.ts    | 2 +-
+ translations/liblingmo-search/liblingmo-search_ug.ts    | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/translations/liblingmo-search/liblingmo-search_kk_KZ.ts b/translations/liblingmo-search/liblingmo-search_kk_KZ.ts
+index 634610d..d7da516 100644
+--- a/translations/liblingmo-search/liblingmo-search_kk_KZ.ts
++++ b/translations/liblingmo-search/liblingmo-search_kk_KZ.ts
+@@ -164,7 +164,7 @@
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="334"/>
+         <source>Dir Search</source>
+-        <translation>Dir Search</translation>
++        <translation>دۇرا ٸزدەۋ</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="400"/>
+diff --git a/translations/liblingmo-search/liblingmo-search_ky.ts b/translations/liblingmo-search/liblingmo-search_ky.ts
+index c66e413..c10f3de 100644
+--- a/translations/liblingmo-search/liblingmo-search_ky.ts
++++ b/translations/liblingmo-search/liblingmo-search_ky.ts
+@@ -164,7 +164,7 @@
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="334"/>
+         <source>Dir Search</source>
+-        <translation>Dir Search</translation>
++        <translation>ىزدۅۅ</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="400"/>
+diff --git a/translations/liblingmo-search/liblingmo-search_ug.ts b/translations/liblingmo-search/liblingmo-search_ug.ts
+index a20d5f7..2df6b1e 100644
+--- a/translations/liblingmo-search/liblingmo-search_ug.ts
++++ b/translations/liblingmo-search/liblingmo-search_ug.ts
+@@ -164,7 +164,7 @@
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="334"/>
+         <source>Dir Search</source>
+-        <translation>Dir Search</translation>
++        <translation>ئىزدەش</translation>
+     </message>
+     <message>
+         <location filename="../../libsearch/index/file-search-plugin.cpp" line="400"/>

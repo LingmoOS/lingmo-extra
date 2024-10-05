@@ -1,0 +1,15 @@
+development-files/lingmosdk-waylandhelper.pc usr/share/pkgconfig/
+usr/include/lingmosdk/applications/waylandhelper.h
+usr/include/lingmosdk/applications/lingmosdk-waylandhelper_global.h
+usr/include/lingmosdk/applications/lingmostylehelper/lingmo-decoration-client.h
+usr/include/lingmosdk/applications/lingmostylehelper/lingmo-decoration-manager.h
+usr/include/lingmosdk/applications/lingmostylehelper/lingmostylehelper.h
+usr/include/lingmosdk/applications/lingmostylehelper/xatom-helper.h
+usr/include/lingmosdk/applications/windowmanager/abstractinterface.h
+usr/include/lingmosdk/applications/windowmanager/waylandinterface.h
+usr/include/lingmosdk/applications/windowmanager/windowinfo.h
+usr/include/lingmosdk/applications/windowmanager/windowmanager.h
+usr/include/lingmosdk/applications/windowmanager/wmregister.h
+usr/include/lingmosdk/applications/windowmanager/xcbinterface.h
+usr/include/lingmosdk/applications/windowmanager/wayland-plasma-window-management-client-protocol.h
+usr/lib/*/lingmo-sdk-waylandhelper.so

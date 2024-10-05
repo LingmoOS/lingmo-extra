@@ -1,0 +1,4 @@
+src/lingmo-sdk-system-javascript-http/httpServer usr/bin/
+src/lingmo-sdk-system-javascript-http/conf/lingmosdk.conf etc/lingmosdk/
+src/lingmo-sdk-system-javascript-http/conf/lingmosdkHttpServer.desktop etc/xdg/autostart/ 
+src/lingmo-sdk-system-javascript-http/html/ usr/lib/lingmosdk-dbus-http/html/

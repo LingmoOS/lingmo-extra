@@ -1,0 +1,4 @@
+#!/bin/bash
+
+systemctl enable dbus_location.service
+systemctl restart dbus_location.service

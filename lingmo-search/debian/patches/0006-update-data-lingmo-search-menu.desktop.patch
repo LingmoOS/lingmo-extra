@@ -1,0 +1,52 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Mon, 19 Aug 2024 07:44:56 +0000
+Subject: update data/lingmo-search-menu.desktop.
+
+Signed-off-by: KevinDuan <duankaiwen@lingmoos.cn>
+---
+ data/lingmo-search-menu.desktop | 18 +++++++++---------
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+diff --git a/data/lingmo-search-menu.desktop b/data/lingmo-search-menu.desktop
+index f080b03..0b83bbe 100644
+--- a/data/lingmo-search-menu.desktop
++++ b/data/lingmo-search-menu.desktop
+@@ -4,9 +4,9 @@ Name[zh_CN]=搜索
+ Name[zh_HK]=搜索
+ Name[bo_CN]=བཤེར་འཚོལ།
+ Name[mn]=ᠪᠦᠬᠦ ᠲᠠᠯ᠎ᠠ ᠪᠠᠷ ᠬᠠᠢᠬᠤ
+-Name[kk]=Іздеу
+-Name[ug]=ئىزدە
+-Name[ky]=Издөө
++Name[kk_KZ]=ىزدەۋ
++Name[ug_CN]=ئىزدىمەك
++Name[ky_KG]=ئىزدىمەك
+ Name[de]=Suchen
+ Name[es]=Buscar
+ Name[fr]=Rechercher
+@@ -15,9 +15,9 @@ GenericName[zh_CN]=全局搜索
+ GenericName[zh_HK]=全域搜索
+ GenericName[bo_CN]=བཤེར་འཚོལ།
+ GenericName[mn]=ᠪᠦᠬᠦ ᠲᠠᠯ᠎ᠠ ᠪᠠᠷ ᠡᠷᠢᠨ᠎ᠡ
+-GenericName[kk]=Ғаламдық іздеу
+-GenericName[ug]=يەرشارى ئىزدەش
+-GenericName[ky]=Глобалдык издөө
++GenericName[kk_KZ]=ىزدەۋ
++GenericName[ug_CN]=ئىزدىمەك
++GenericName[ky_KG]=ئىزدىمەك
+ GenericName[de]=Globale Suche
+ GenericName[es]=Búsqueda global
+ GenericName[fr]=Recherche globale
+@@ -26,9 +26,9 @@ Comment[zh_CN]=全局搜索
+ Comment[zh_HK]=全域搜索
+ Comment[bo_CN]=ཁྱོན་ཡོངས་བཤེར་འཚོལ།
+ Comment[mn]=ᠪᠦᠬᠦ ᠲᠠᠯ᠎ᠠ ᠪᠠᠷ ᠬᠠᠢᠬᠤ
+-Comment[kk]=Ғаламдық іздеу
+-Comment[ug]=يەرشارى ئىزدەش
+-Comment[ky]=Глобалдык издөө
++Comment[kk_KZ]=ىزدەۋ
++Comment[ug_CN]=ئىزدىمەك
++Comment[ky_KG]=ئىزدىمەك
+ Comment[de]=Globale Suche
+ Comment[es]=Búsqueda global
+ Comment[fr]=Recherche globale

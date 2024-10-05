@@ -1,0 +1,185 @@
+From: KevinDuan <duankaiwen@lingmoos.cn>
+Date: Sun, 29 Sep 2024 16:09:47 +0000
+Subject: Translated using Weblate (Uyghur)
+
+Currently translated at 100.0% (17 of 17 strings)
+
+Translation: lingmo-nile-new/lingmo-search
+Translate-URL: http://weblate.lingmo.top/projects/lingmo-nile-new/lingmo-search/ug/
+---
+ translations/lingmo-search/kk.ts | 18 +++++++++---------
+ translations/lingmo-search/ky.ts | 16 ++++++++--------
+ translations/lingmo-search/ug.ts |  4 ++--
+ 3 files changed, 19 insertions(+), 19 deletions(-)
+
+diff --git a/translations/lingmo-search/kk.ts b/translations/lingmo-search/kk.ts
+index 4e1094b..b01253e 100644
+--- a/translations/lingmo-search/kk.ts
++++ b/translations/lingmo-search/kk.ts
+@@ -6,7 +6,7 @@
+     <message>
+         <location filename="../../frontend/view/best-list-view.cpp" line="408"/>
+         <source>Best Matches</source>
+-        <translation>ەڭ جاقسى سايكەستىرۋ</translation>
++        <translation>ەڭ جاقسى سەرەڭگە</translation>
+     </message>
+ </context>
+ <context>
+@@ -61,12 +61,12 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="42"/>
+         <source>lingmo-search</source>
+-        <translation>ٸزدەۋ lingmo</translation>
++        <translation>lingmo-ٸزدەۋ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="71"/>
+         <source>Search</source>
+-        <translation>ٸزدەۋ</translation>
++        <translation>ٸزدەمەكشٸ بولعان مازمۇندى كىرگىزىڭىز</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="78"/>
+@@ -90,12 +90,12 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="118"/>
+         <source>No</source>
+-        <translation>كۇشىنەن قالتۇرۇش</translation>
++        <translation>كۇشىنەن قالدىرۋ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="120"/>
+         <source>Yes</source>
+-        <translation>تۇراقتاندىرۋ</translation>
++        <translation>قوسۋ</translation>
+     </message>
+ </context>
+ <context>
+@@ -125,7 +125,7 @@
+     <message>
+         <location filename="../../frontend/mainwindow.cpp" line="74"/>
+         <source>lingmo-search</source>
+-        <translation>ٸزدەۋ lingmo</translation>
++        <translation>lingmo-ٸزدەۋ</translation>
+     </message>
+     <message>
+         <source>Search Settings</source>
+@@ -206,7 +206,7 @@
+     <message>
+         <location filename="../../frontend/control/search-line-edit.cpp" line="53"/>
+         <source>Search</source>
+-        <translation>ٸزدەۋ</translation>
++        <translation>ٸزدەمەكشٸ بولعان مازمۇندى كىرگىزىڭىز</translation>
+     </message>
+ </context>
+ <context>
+@@ -360,7 +360,7 @@
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="111"/>
+         <source>Quit lingmo-search application</source>
+-        <translation>ٸزدەۋ ئەپتىن شەگىنۋ lingmo</translation>
++        <translation>uku ٸزدەۋ پرٶگرامماسىنان شەگىنۋ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="114"/>
+@@ -400,7 +400,7 @@
+     <message>
+         <location filename="../../frontend/search-app-widget-plugin/provider/data/search.qml" line="132"/>
+         <source>search</source>
+-        <translation>ٸزدەۋ</translation>
++        <translation>ىزدە</translation>
+     </message>
+ </context>
+ </TS>
+diff --git a/translations/lingmo-search/ky.ts b/translations/lingmo-search/ky.ts
+index 3a872f7..f8a41af 100644
+--- a/translations/lingmo-search/ky.ts
++++ b/translations/lingmo-search/ky.ts
+@@ -6,7 +6,7 @@
+     <message>
+         <location filename="../../frontend/view/best-list-view.cpp" line="408"/>
+         <source>Best Matches</source>
+-        <translation>ەڭ جاقشى شايكەشتىرىپ</translation>
++        <translation>ەڭ جاقشى سەرەڭگە</translation>
+     </message>
+ </context>
+ <context>
+@@ -61,12 +61,12 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="42"/>
+         <source>lingmo-search</source>
+-        <translation>ىزدۅۅ lingmo</translation>
++        <translation>lingmo-ىزدۅۅ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="71"/>
+         <source>Search</source>
+-        <translation>ىزدۅۅ</translation>
++        <translation>ىزدەمەكچى بولعون مازمۇنۇن كىرگىزىڭ</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="78"/>
+@@ -90,12 +90,12 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="118"/>
+         <source>No</source>
+-        <translation>ارعادان  قالتۇرۇش</translation>
++        <translation>ارعادان  قالتىرىش</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="120"/>
+         <source>Yes</source>
+-        <translation>بەكىتۉۉ</translation>
++        <translation>قوشۇۇ</translation>
+     </message>
+ </context>
+ <context>
+@@ -125,7 +125,7 @@
+     <message>
+         <location filename="../../frontend/mainwindow.cpp" line="74"/>
+         <source>lingmo-search</source>
+-        <translation>ىزدۅۅ lingmo</translation>
++        <translation>lingmo-ىزدۅۅ</translation>
+     </message>
+     <message>
+         <source>Search Settings</source>
+@@ -206,7 +206,7 @@
+     <message>
+         <location filename="../../frontend/control/search-line-edit.cpp" line="53"/>
+         <source>Search</source>
+-        <translation>ىزدۅۅ</translation>
++        <translation>ىزدەمەكچى بولعون مازمۇنۇن كىرگىزىڭ</translation>
+     </message>
+ </context>
+ <context>
+@@ -360,7 +360,7 @@
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="111"/>
+         <source>Quit lingmo-search application</source>
+-        <translation>ىزدۅۅ ئەپتىن جانىش ، قايتىش  lingmo</translation>
++        <translation>uku ىزدۅۅ پىروگىرامماسىنان جانىش ، قايتىش</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="114"/>
+diff --git a/translations/lingmo-search/ug.ts b/translations/lingmo-search/ug.ts
+index fc03dc7..927fcf1 100644
+--- a/translations/lingmo-search/ug.ts
++++ b/translations/lingmo-search/ug.ts
+@@ -90,7 +90,7 @@
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="118"/>
+         <source>No</source>
+-        <translation>ئەمەلدىن قالتۇرۇش</translation>
++        <translation>ئەمەلدىن قالدۇرۇش</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/control/create-index-ask-dialog.cpp" line="120"/>
+@@ -360,7 +360,7 @@
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="111"/>
+         <source>Quit lingmo-search application</source>
+-        <translation>ئۇكۇي ئىزدەش پروگراممىسىدىن چېكىنىش</translation>
++        <translation>uku ئىزدەش پىروگراممىسىدىن چېكىنىش</translation>
+     </message>
+     <message>
+         <location filename="../../frontend/lingmo-search-gui.cpp" line="114"/>

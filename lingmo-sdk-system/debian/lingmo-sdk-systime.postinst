@@ -1,0 +1,12 @@
+check_env=`systemd-detect-virt`
+echo $check_env
+if [ $check_env = "docker" ];then
+        echo "docker env do not start lingmosdk-systime.service"
+else
+	systemctl daemon-reload
+	systemctl enable lingmosdk-systime.service
+	systemctl restart lingmosdk-systime.service
+fi
+
+mv /usr/share/locale/zh_CN/LC_MESSAGES/zh_CN.mo /usr/share/locale/zh_CN/LC_MESSAGES/lingmosdk-date.mo
+mv /usr/share/locale/bo_CN/LC_MESSAGES/bo_CN.mo /usr/share/locale/bo_CN/LC_MESSAGES/lingmosdk-date.mo

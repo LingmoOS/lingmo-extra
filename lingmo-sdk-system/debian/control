@@ -1,0 +1,466 @@
+Source: lingmo-sdk-system
+Section: utils
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: debhelper-compat (= 12),
+            cmake,
+            libc6-dev,
+            libsystemd-dev,
+            libcjson-dev,
+            libdbus-1-dev,
+            libdbus-glib-1-dev,
+            libglib2.0-dev,
+            lingmo-sdk-log-dev(>=1.2.0),
+            lingmo-sdk-config-dev(>=1.2.0),
+            lingmo-sdk-utils-dev(>=1.2.0),
+            lingmo-sdk-timer-dev(>=1.2.0),
+            libqt5core5a,
+            qtbase5-dev,
+	    libudev-dev,
+            libopencv-dev,
+            libarchive-dev,
+            libtesseract-dev,
+            libcups2-dev,
+            libsane-dev,
+            libcurl4-openssl-dev,
+            libxrandr-dev,
+            libqt5dbus5,
+            libqt5webchannel5-dev,
+            libqt5websockets5-dev,
+            libkmod-dev,
+            libhd-dev,
+            libpci-dev,
+            libbluetooth-dev,
+            libsensors4-dev
+Standards-Version: 4.4.1
+Homepage: http://gitlab2.lingmo.com/lingmosdk/lingmosdk-system
+
+Package: lingmo-sdk-system
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-disk,
+         lingmo-sdk-sysinfo,
+         lingmo-sdk-systime,
+         lingmo-sdk-filesystem,
+         lingmo-sdk-proc,
+         lingmo-sdk-hardware,
+         lingmo-sdk-package,
+         lingmo-sdk-powermanagement,
+         systemd,
+         libglib2.0-0,
+         lingmo-sdk-systemcommon,
+         lingmo-sdk-location,
+         lingmo-sdk-net,
+         lingmo-sdk-realtime
+Multi-Arch: same
+Description: 灵墨开发者套件 - 系统层套件，提供系统信息、磁盘信息、系统时间等API与服务
+
+Package: lingmo-sdk-system-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-system,
+         lingmo-sdk-disk-dev,
+         lingmo-sdk-sysinfo-dev,
+         lingmo-sdk-systime-dev,
+         lingmo-sdk-sysinfo-dev,
+         lingmo-sdk-filesystem-dev,
+         lingmo-sdk-proc-dev,
+         lingmo-sdk-hardware-dev,
+         lingmo-sdk-package-dev,
+         lingmo-sdk-powermanagement-dev,
+         lingmo-sdk-location-dev,
+         lingmo-sdk-net-dev,
+         lingmo-sdk-realtime-dev
+Multi-Arch: foreign
+Description: 灵墨开发者套件 - 系统层套件 - 开发库，提供系统信息、磁盘信息、系统时间等API与服务
+
+Package: lingmo-sdk-disk
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+         lingmo-sdk-systemcommon,
+         libhd21,
+         libblkid1,
+         libc6,
+         lingmo-sdk-config(>=1.2.0),
+         libsystemd0,
+         libudev1
+Multi-Arch: same
+Description: 系统磁盘信息获取库
+
+Package: lingmo-sdk-disk-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-disk,
+         lingmo-sdk-log-dev(>=1.2.0),
+         lingmo-sdk-utils-dev(>=1.2.0),
+         libblkid-dev,
+	 libudev-dev
+Multi-Arch: foreign
+Description: 系统磁盘信息获取库 - 开发库
+
+Package: lingmo-sdk-systime
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+         dbus,
+         systemd,
+         libglib2.0-0,
+         lingmo-sdk-timer(>=1.2.0),
+         lingmo-sdk-config(>=1.2.0),
+         lingmo-sdk-systemcommon,
+         libc6,
+         libdbus-1-3,
+         libdbus-glib-1-2
+Multi-Arch: same
+Description: 系统时间相关操作库
+
+Package: lingmo-sdk-systime-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-systime,
+         libglib2.0-dev,
+         lingmo-sdk-timer-dev(>=1.2.0),
+         lingmo-sdk-config-dev(>=1.2.0)
+Multi-Arch: foreign
+Description: 系统时间相关操作库 - 开发库
+
+Package: lingmo-sdk-sysinfo
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+         dbus,
+         libglib2.0-0,
+         systemd,
+         libcjson1,
+         libxrandr2,
+         libpci3,
+         libkmod2,
+         lingmo-sdk-systemcommon,
+         libc6,
+         libdbus-1-3,
+         libdbus-glib-1-2,
+         libgcc-s1 | libgcc1,
+         lingmo-sdk-config(>=1.2.0),
+         libstdc++6,
+         libsystemd0,
+         libx11-6
+Multi-Arch: same
+Description: 系统信息获取库
+
+Package: lingmo-sdk-sysinfo-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-sysinfo,
+         lingmo-sdk-log-dev(>=1.2.0),
+         lingmo-sdk-utils-dev(>=1.2.0),
+         libsystemd-dev,
+         libcjson-dev,
+         libdbus-1-dev,
+         libdbus-glib-1-dev,
+         libglib2.0-dev,
+         libxrandr-dev
+Multi-Arch: foreign
+Description: 系统信息获取库 - 开发库
+
+Package: lingmo-sdk-filesystem
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+         libqt5core5a,
+         lingmo-sdk-config(>=1.2.0),
+         systemd,
+         lingmo-sdk-systemcommon,
+         libc6,
+         libgcc-s1 | libgcc1,
+         libstdc++6,
+         libsystemd0
+Multi-Arch: same
+Description: 文件系统库
+
+Package: lingmo-sdk-filesystem-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-filesystem,
+         lingmo-sdk-log-dev(>=1.2.0),
+         lingmo-sdk-config-dev(>=1.2.0),
+         libsystemd-dev,
+         qtbase5-dev
+Multi-Arch: foreign
+Description: 文件系统库 - 开发库
+
+Package: lingmo-sdk-hardware
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+         lingmo-sdk-config(>=1.2.0),
+         systemd,
+         lingmo-sdk-systemcommon,
+         libcups2,
+         libcurl4,
+         libudev1,
+         libhd21,
+         libpci3,
+         libxrandr2,
+         libbluetooth3,
+         libsensors5,
+         libglib2.0-0,
+         libdbus-glib-1-2,
+         libc6,
+         libsystemd0,
+         libx11-6
+Multi-Arch: same
+Description: 硬件信息获取库
+
+Package: lingmo-sdk-hardware-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-hardware,
+         lingmo-sdk-log-dev(>=1.2.0),
+         lingmo-sdk-config-dev(>=1.2.0),
+         libsystemd-dev,
+         libcups2-dev,
+         libcurl4-openssl-dev,
+         libudev-dev,
+         libxrandr-dev
+Multi-Arch: foreign
+Description: 硬件信息获取库 - 开发库
+
+Package: lingmo-sdk-package
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-systemcommon,
+         libc6
+Multi-Arch: same
+Description: 包管理库
+
+Package: lingmo-sdk-package-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-package
+Multi-Arch: foreign
+Description: 包管理库 - 开发库
+
+Package: lingmo-sdk-proc
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+         lingmo-sdk-systemcommon,
+         libc6
+Multi-Arch: same
+Description: 运行时信息获取库
+
+Package: lingmo-sdk-proc-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-log-dev(>=1.2.0),
+         lingmo-sdk-utils-dev(>=1.2.0),
+         lingmo-sdk-proc
+Multi-Arch: foreign
+Description: 运行时信息获取库 - 开发库
+
+Package: lingmo-sdk-powermanagement
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-log(>=1.2.0),
+         lingmo-sdk-systemcommon,
+         libc6,
+         libdbus-1-3,
+         libgcc-s1 | libgcc1,
+         lingmo-sdk-config(>=1.2.0),
+         lingmo-sdk-utils(>=1.2.0),
+         libstdc++6,
+         libsystemd0
+Multi-Arch: same
+Description: 电源管理库
+
+Package: lingmo-sdk-powermanagement-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-log-dev(>=1.2.0),
+         lingmo-sdk-powermanagement
+Multi-Arch: foreign
+Description: 电源管理 - 开发库
+
+Package: lingmo-sdk-ocr
+Architecture: any
+Multi-Arch: same
+Depends: libopencv-core4.2,
+         libopencv-highgui4.2,
+         libopencv-imgproc4.2,
+         libopencv-imgcodecs4.2,
+         liblept5,
+         libarchive13,
+         libtesseract4,
+         lingmo-sdk-systemcommon,
+         libc6,
+         libgcc-s1 | libgcc1,
+         libstdc++6
+Description: AI文字识别功能
+
+Package: lingmo-sdk-ocr-dev
+Architecture: all
+Multi-Arch: foreign
+Depends: lingmo-sdk-ocr,
+         libleptonica-dev,
+         libopencv-dev,
+         libarchive-dev,
+         libtesseract-dev
+Description: AI文字识别功能-开发库
+
+Package: lingmo-sdk-systemcommon
+Architecture: any
+Section: utils
+Depends: 
+Multi-Arch: same
+Description: lingmosdk-system层公用数据包
+
+Package: lingmo-sdk-location
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-systemcommon,
+         libglib2.0-0,
+         libc6,
+         python3-requests
+Multi-Arch: same
+Description: 地理位置库
+
+Package: lingmo-sdk-location-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-location
+Multi-Arch: foreign
+Description: 地理位置库 - 开发库
+
+Package: lingmo-sdk-net
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-systemcommon,
+         libc6
+Multi-Arch: same
+Description: 网络信息库
+
+Package: lingmo-sdk-net-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-net
+Multi-Arch: foreign
+Description: 网络信息库 - 开发库
+
+Package: lingmo-sdk-realtime
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-systemcommon,
+         libc6,
+         libgcc-s1 | libgcc1,
+         libstdc++6,
+         lm-sensors
+Multi-Arch: same
+Description: 运行时信息库
+
+Package: lingmo-sdk-realtime-dev
+Architecture: all
+Section: utils
+Depends: lingmo-sdk-realtime
+Multi-Arch: foreign
+Description: 运行时信息库 - 开发库
+
+Package: lingmo-sdk-system-java
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-system-dbus
+Multi-Arch: same
+Description: 多语言支持 - java
+
+Package: lingmo-sdk-system-python
+Architecture: any
+Depends: python3-dbus,
+         lingmo-sdk-system-dbus
+Multi-Arch: same
+Description: 多语言支持 - python
+
+Package: lingmo-sdk-system-dbus
+Architecture: any
+Section: utils
+Depends: libqt5dbus5,
+         lingmo-sdk-disk,
+         lingmo-sdk-hardware,
+         lingmo-sdk-location,
+         lingmo-sdk-net,
+         lingmo-sdk-package,
+         lingmo-sdk-proc,
+         lingmo-sdk-realtime,
+         lingmo-sdk-sysinfo,
+         libblkid1,
+         libbluetooth3,
+         libc6,
+         libcjson1,
+         libcups2,
+         libcurl4,
+         libdbus-1-3,
+         libdbus-glib-1-2,
+         libgcc-s1 | libgcc1,
+         libglib2.0-0,
+         libhd21,
+         libkmod2,
+         lingmo-sdk-config(>=1.2.0),
+         lingmo-sdk-log(>=1.2.0),
+         libpci3,
+         libqt5core5a,
+         libsensors5,
+         libstdc++6,
+         libsystemd0,
+         libudev1,
+         libx11-6,
+         libxrandr2
+Multi-Arch: same
+Description: sdk dbus
+
+Package: lingmo-sdk-system-javascript-http
+Architecture: any
+Depends: libqt5widgets5,
+         libqt5gui5 | libqt5gui5-gles,
+         libqt5dbus5,
+         libqt5core5a,
+         lingmo-sdk-system-dbus,
+         libc6,
+         libgcc-s1 | libgcc1,
+         libqt5concurrent5,
+         libqt5network5,
+         libstdc++6
+Multi-Arch: same
+Description:多语言支持 - javascript
+
+Package: lingmo-sdk-system-javascript-websocket
+Architecture: any
+Depends: libqt5webchannel5,
+         libqt5websockets5,
+         lingmo-sdk-system-dbus,
+         libc6,
+         libgcc-s1 | libgcc1,
+         libqt5concurrent5,
+         libqt5core5a,
+         libqt5dbus5,
+         libqt5gui5 | libqt5gui5-gles,
+         libqt5network5,
+         libqt5qml5,
+         libqt5widgets5,
+         libstdc++6
+Multi-Arch: same
+Description: 多语言支持 - javascript
+
+Package: lingmo-sdk-logrotate
+Architecture: any
+Section: utils
+Depends: lingmo-sdk-systemcommon,
+         libqt5core5a,
+         libqt5dbus5,
+         lingmo-sdk-log(>=1.2.0),
+         logrotate,
+         libc6,
+         libgcc-s1 | libgcc1,
+         libstdc++6,
+         cron
+Multi-Arch: same
+Description: 日志转储服务
+

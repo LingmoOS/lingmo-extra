@@ -1,0 +1,6 @@
+Name: lingmo-sdk-location
+Description: lingmosdk system layer location
+Requires:glib-2.0
+Version: 2.0.0
+Libs: -L/usr/lib/lingmosdk/lingmosdk-system/ -L/usr/lib/lingmosdk/lingmosdk-base -lkylocation -Wl,-rpath=/usr/lib/lingmosdk/lingmosdk-system/
+Cflags: -I/usr/include/lingmosdk/lingmosdk-system/

@@ -1,0 +1,3 @@
+mv /usr/share/locale/mn/LC_MESSAGES/lingmosdk-sysinfo_mn.mo /usr/share/locale/mn/LC_MESSAGES/lingmosdk-sysinfo.mo
+mv /usr/share/locale/zh_CN/LC_MESSAGES/lingmosdk-sysinfo_zh_CN.mo /usr/share/locale/zh_CN/LC_MESSAGES/lingmosdk-sysinfo.mo
+mv /usr/share/locale/bo_CN/LC_MESSAGES/lingmosdk-sysinfo_bo_CN.mo /usr/share/locale/bo_CN/LC_MESSAGES/lingmosdk-sysinfo.mo
