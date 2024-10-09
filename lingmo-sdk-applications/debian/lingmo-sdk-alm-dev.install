@@ -2,5 +2,5 @@ development-files/lingmosdk-alm.pc /usr/share/pkgconfig/
 usr/include/lingmosdk/applications/singleapplication.h
 usr/include/lingmosdk/applications/localpeer.h
 
-usr/lib/*/lingmo-sdk-alm.so
+usr/lib/*/*lingmosdk-alm.so
 

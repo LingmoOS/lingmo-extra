@@ -47,4 +47,4 @@ usr/include/lingmosdk/applications/kbadge.h
 usr/include/lingmosdk/applications/kaboutdialog.h
 usr/include/lingmosdk/applications/gui_g.h
 
-usr/lib/*/lingmo-sdk-qtwidgets.so
+usr/lib/*/*lingmosdk-qtwidgets.so

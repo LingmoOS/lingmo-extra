@@ -3,4 +3,4 @@ usr/include/lingmosdk/applications/currency.h
 usr/include/lingmosdk/applications/gsettingmonitor.h
 usr/include/lingmosdk/applications/usermanual.h
 
-usr/lib/*/lingmo-sdk-ukenv.so
+usr/lib/*/*lingmosdk-ukenv.so

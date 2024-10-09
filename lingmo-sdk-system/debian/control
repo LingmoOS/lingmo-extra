@@ -285,13 +285,13 @@ Description: 电源管理 - 开发库
 Package: lingmo-sdk-ocr
 Architecture: any
 Multi-Arch: same
-Depends: libopencv-core4.2,
-         libopencv-highgui4.2,
-         libopencv-imgproc4.2,
-         libopencv-imgcodecs4.2,
+Depends: libopencv-core406t64,
+         libopencv-highgui406t64,
+         libopencv-imgproc406t64,
+         libopencv-imgcodecs406t64,
          liblept5,
          libarchive13,
-         libtesseract4,
+         libtesseract5,
          lingmo-sdk-systemcommon,
          libc6,
          libgcc-s1 | libgcc1,

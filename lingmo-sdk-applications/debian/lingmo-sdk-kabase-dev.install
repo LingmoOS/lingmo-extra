@@ -16,4 +16,4 @@ usr/include/lingmosdk/applications/kabase/lingmo_system/user_manual.hpp
 usr/include/lingmosdk/applications/kabase/lingmo_system/window_management.hpp
 usr/include/lingmosdk/applications/kabase/single_application/single_application.hpp
 
-usr/lib/*/lingmo-sdk-kabase.so
+usr/lib/*/*lingmosdk-kabase.so

@@ -12,4 +12,4 @@ usr/include/lingmosdk/applications/windowmanager/windowmanager.h
 usr/include/lingmosdk/applications/windowmanager/wmregister.h
 usr/include/lingmosdk/applications/windowmanager/xcbinterface.h
 usr/include/lingmosdk/applications/windowmanager/wayland-plasma-window-management-client-protocol.h
-usr/lib/*/lingmo-sdk-waylandhelper.so
+usr/lib/*/*lingmosdk-waylandhelper.so
